@@ -1,5 +1,9 @@
 # Airflow automation
 
+## Introduction
+
+* You need to have AWS EC2 Linux instance, and set up Jupyter Lab and Airflow there. We also need AWS RDS to store data. It's stressful to work on command line and configuration, so I tried to describe in detail each process and what command you need to type in documentation. Please check "setup_document.pdf" in this repository.
+
 ## Problem
 
 * Data analysis requires pipeline of getting data, cleaning data, training model, making prediction, visualizing data, reporting and repeat. We want to automate an entire process and be productive.
